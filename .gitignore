@@ -1,4 +1,31 @@
+# Python virtual environment
 venv/
-contours-romania.geojson
-elevation-30m-romania.tif
-rivers-romania.geojson
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (too large for GitHub)
+*.xlsx
+*.xls
+*.tif
+*.tiff
+*.geojson
+*.json
+*.pkl
+*.joblib
+
+# Results and outputs (reproducible from scripts)
+results/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
