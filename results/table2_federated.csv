@@ -1,0 +1,4 @@
+Setting,F1,AUC-ROC,Privacy,Data shared
+Local-only (no sharing),0.869,0.795,Full,None
+Federated (FedAvg),0.760 +/- 0.140,0.811 +/- 0.086,Preserved,Model updates only
+Centralized (upper bound),0.768 +/- 0.131,0.853 +/- 0.086,None,All raw data
